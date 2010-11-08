@@ -40,6 +40,7 @@ install: build
 	cp -a lib/* $(CURDIR)/debian/openpsa2/usr/share/php5/openpsa2/lib/
 	cp -a schemas/* $(CURDIR)/debian/openpsa2/usr/share/openpsa2/schema/
 	cp -a static/* $(CURDIR)/debian/openpsa2/usr/share/openpsa2/www/
+	cp -a themes/OpenPsa2/static/* $(CURDIR)/debian/openpsa2/usr/share/openpsa2/www/OpenPsa2/
 	cp -a themes/* $(CURDIR)/debian/openpsa2/etc/openpsa2/themes/
 
 
