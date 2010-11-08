@@ -7,5 +7,6 @@ RETVAL=$?
 
 # Ensure web server can write to database and blobs
 chown -R www-data:www-data /var/lib/openpsa2
+chown -R www-data:www-data /var/log/openpsa2
 
 exit 0
