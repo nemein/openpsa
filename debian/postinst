@@ -9,4 +9,12 @@ RETVAL=$?
 chown -R www-data:www-data /var/lib/openpsa2
 chown -R www-data:www-data /var/log/openpsa2
 
+# PEAR Calendar package is not available via Debian
+pear install Calendar-beta
+
+# Restart Lighttpd
+/etc/init.d/lighttpd restart
+
+echo "OpenPSA is now available in http://localhost/openpsa2"
+
 exit 0
