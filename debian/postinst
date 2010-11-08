@@ -11,6 +11,7 @@ chown -R www-data:www-data /var/log/openpsa2
 
 # PEAR Calendar package is not available via Debian
 pear install Calendar-beta
+pear install html_quickform
 
 # Restart Lighttpd
 /etc/init.d/lighttpd restart
