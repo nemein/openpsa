@@ -1,4 +1,10 @@
-openpsa2 (8.09.10beta1-1) unstable; urgency=low
+openpsa2 (8.09.10beta1-2) lucid; urgency=low
+
+  * Fixing package format
+
+ -- Henri Bergius <henri.bergius@iki.fi>  Mon, 08 Nov 2010 12:04:54 +0200
+
+openpsa2 (8.09.10beta1-1) lucid; urgency=low
 
   * Initial release
 
